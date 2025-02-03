@@ -24,7 +24,7 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t lisamiranda/sample-app:latest .
-          docker tag lisamiranda/sample-app:latest lisamiranda/sample-app:lisa.miranda
-          docker push lisamiranda/sample-app:latest
-          docker push lisamiranda/sample-app:lisa.miranda
+          docker build -t lisamiranda1997/sample-app:latest .
+          docker tag lisamiranda1997/sample-app:latest lisamiranda1997/sample-app:lisa.miranda
+          docker push lisamiranda1997/sample-app:latest
+          docker push lisamiranda1997/sample-app:lisa.miranda
