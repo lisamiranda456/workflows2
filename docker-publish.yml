@@ -23,7 +23,7 @@ jobs:
           password: 'Chris#1911'
 
       - name: Build and Push Docker Image
-        run: 
+        run: |
           docker build -t lisamiranda1997/sample-app:latest .
           docker tag lisamiranda1997/sample-app:latest lisamiranda1997/sample-app:lisa.miranda
           docker push lisamiranda1997/sample-app:latest
